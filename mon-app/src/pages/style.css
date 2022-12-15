@@ -1,0 +1,90 @@
+.foodPictures{
+  max-width: 350px;
+  width: 100%;
+  box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+
+.foodPictures:hover{
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1);
+}
+
+
+.globalSectionGallery, .globalSectionMenu{
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.menuPictures, .dissertPictures{
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foodPictures{
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menuCardImage{
+  width: -webkit-fill-available;
+}
+
+.global-section-about{
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: small;
+  font-weight: 330;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.information-about{
+  font-weight: 330;
+  text-align: center;
+  font-size: large;
+}
+
+.english-information-about{
+  background-color: #2c2c2cf5;
+  color: #8baf72;
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+  font-weight: 330;
+  font-size: medium;
+  padding: 40px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1070px) {
+  
+
+.bannerDiv {
+  min-height: 330px;
+  height: 100%;
+}
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 680px) {
+
+.global-section-about {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: small;
+  font-weight: 330;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+}
